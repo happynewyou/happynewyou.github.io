@@ -14,10 +14,22 @@
       rel="stylesheet">
 </head>
 <body style="margin: 0px; background-color: #ffffff; background-size: 100%; width: 100%">
-	<!--<h1 class="text-center aladinfont" style="margin-top: 2%; margin-bottom: 1%">Host in your City - Happy New You :)</h1>-->
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" style="text-decoration: none; font-size: 60px;" onclick="closeNav()">&times;</a>
+    <a href="index.html" style="margin-top: 60px">HOME</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="schedule.html">EVENTS</a>
+    <a href="hostingcities.html">HOSTING CITIES</a>
+    <a href="hostinyourcity.html">HOST IN YOUR CITY</a>
+    <a href="contactus.html">CONTACT US</a>
+  </div>
+
+
 <section> 
 	<a href="signatureevents.html"><div class="semi-circle-top"> 
 	<p class="aladinfont eventstext">SIGNATURE <br> ACTIVITIES</p></div></a>
+	
 </section>
 
 <section> 
@@ -32,5 +44,14 @@
 <script type="text/javascript" src="js/jquery.fittext.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript">
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 </html>

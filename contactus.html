@@ -15,17 +15,28 @@
 </head>
 <body style="background-image: url('images/leaves.png');background-repeat: no-repeat;">
 
-	<!--<h1 class="text-center aladinfont" style="margin-top: 2%; margin-bottom: 1%; color: #544F3D">Contact Us</h1>-->
-<section class="rain"></section>
+	<h1 class="text-center aladinfont" style="margin-top: 2%; margin-bottom: 1%; color: #544F3D">Contact Us 
+		<span style="cursor:pointer; float: right; margin-right: 40px" onclick="openNav()">&#9776;</span>
+	</h1>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" style="text-decoration: none; font-size: 60px;" onclick="closeNav()">&times;</a>
+  <a href="index.html" style="margin-top: 60px">HOME</a>
+  <a href="gallery.html">GALLERY</a>
+  <a href="schedule.html">EVENTS</a>
+  <a href="hostingcities.html">HOSTING CITIES</a>
+  <a href="hostinyourcity.html">HOST IN YOUR CITY</a>
+  <a href="contactus.html">CONTACT US</a>
+</div>
 
-<div class="container no-gutters" style="margin-top:5%">
+
+<div class="container no-gutters" style="margin-top:2%">
 	<div class="row ">
 		<div class="col-lg-1 col-sm-4"></div>
 		<div class="col-lg-3 col-sm-8 humility background">			
 				<img src="images/Team/AyushiPandey.jpeg" width="100%">
 					<p></p>
 					<p class="name">Ayushi Pandey</p>
-					<p class="work">Strategist</></p>
+					<p class="work">Event Manager</></p>
 					<p class="contact">+91  809-504-6809</p>
 		</div>
 		<div class="col-lg-1 col-sm-4"></div>
@@ -33,7 +44,7 @@
 				<img src="images/Team/SashiDas.jpeg" width="100%">
 					<p></p>
 					<p class="name">Sashi Das</p>
-					<p class="work">Organiser</></p>
+					<p class="work">Administration</></p>
 					<p class="contact">+91  906-096-1277</p>
 		</div>
 		<div class="col-lg-1 col-sm-4"></div>
@@ -60,13 +71,13 @@
 					<p class="contact">+91  906-096-1277</p>
 		</div>
 		<div class="col-lg-1 col-sm-4"></div>
-		<!--<div class="col-lg-3 col-sm-8 humility background">			
+		<div class="col-lg-3 col-sm-8 humility background">			
 				<img src="images/Team/Koushik1.jpeg" width="100%">
 					<p></p>
 					<p class="name">Koushik Kumar</p>
-					<p class="work"></></p>
+					<p class="work">Organiser</></p>
 					<p class="contact">+91 812-329-6486</p>
-		</div>-->
+		</div>
 		<div class="col-lg-1"></div>
 		<div class="col-lg-3">			
 		</div>
@@ -82,7 +93,14 @@
 <script type="text/javascript" src="js/jquery.fittext.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
 
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 </script>
 
 </html>
