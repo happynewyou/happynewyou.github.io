@@ -312,7 +312,6 @@ figcaption {
     opacity: 0;
 }
 .ot-portfolio-item figure figcaption, .ot-portfolio-item figure figcaption > a {
-    
     top: 0;
     left: 0;
     width: 100%;
@@ -683,7 +682,7 @@ and (max-width : 480px) {
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
-    opacity: 1
+    opacity: 0.9;
 }
 
 .sidenav a {
