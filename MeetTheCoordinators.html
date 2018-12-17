@@ -6,7 +6,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Words &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Hosting Cities!!!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -54,7 +54,7 @@
 	<link rel="stylesheet" href="HostingCities/css/flexslider.css">
 
 	<link rel="stylesheet" href="HostingCities/css/style.css">
-
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Modernizr JS -->
 	<script src="HostingCities/js/modernizr-2.6.2.min.js"></script>
@@ -90,6 +90,16 @@
 	</nav>-->
 	
 	<div id="fh5co-page">
+
+		<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" style="text-decoration: none; font-size: 60px;" onclick="closeNav()">&times;</a>
+    <a href="index.html" style="margin-top: 60px">HOME</a>
+    <a href="Gallery.html">GALLERY</a>
+    <a href="Events.html">EVENTS</a>
+    <a href="MeetTheCoordinators.html">HOSTING CITIES</a>
+    <a href="hostinyourcity.html">HOST IN YOUR CITY</a>
+    <a href="contactus.html">CONTACT US</a>
+  </div>
 		<!--<header>
 			<div class="container">
 				<div class="fh5co-navbar-brand">
@@ -148,10 +158,11 @@
 								</div>
 							</div>
 						</div>
-
-						<div class="col-md-6 col-md-pull-6 nopaddingbottom animate-box">
+						<h1><span style="cursor:pointer; float: right;margin-right: 50px; font-size: 30px !important; margin-top: 20px " onclick="openNav()">&#9776;</span></h1>
+						<div class="col-md-6 col-md-pull-6 nopaddingbottom animate-box" style="margin-top: -100px">
 							<div class="post-image" style="background-image: url(HostingCities/images/Mysuru.jpg);"></div>
 						</div>
+
 					</div>
 				</div>
 			</div>
@@ -225,6 +236,15 @@
 
 	<!-- Main JS (Do not remove) -->
 	<script src="HostingCities/js/main.js"></script>
+	<script type="text/javascript">
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 	</body>
 </html>
