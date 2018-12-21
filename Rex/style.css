@@ -1643,6 +1643,11 @@ img{
 	border-color: #3b5998;
 	color: #fff;
 }
+.footer-social a.insta:hover{
+	background-color: #3b5998;
+	border-color: #3b5998;
+	color: #fff;
+}
 .footer-social a.twitter:hover{
 	color: #fff;
 	background-color: #00aced;
@@ -1850,6 +1855,10 @@ img{
 	width: 35px;
 }
 .follow-us a.facebook{
+	background-color: #3b5998;
+	border-color: #3b5998;	
+}
+.follow-us a.insta{
 	background-color: #3b5998;
 	border-color: #3b5998;	
 }
