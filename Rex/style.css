@@ -721,18 +721,21 @@ img{
 }
 
 .team-img-1 { 
-	background-image: url(assets/images/team-member1.png);
+	background-image: url(assets/images/Sourabh1.png);
 }
 
 .team-img-2 { 
-	background-image: url(assets/images/team-member2.png);
+	background-image: url(assets/images/Apala1.png);
 }
 
 .team-img-3 { 
-	background-image: url(assets/images/team-member3.png);
+	background-image: url(assets/images/Sashi1.png);
 }
 .team-img-4 { 
-	background-image: url(assets/images/team-member4.png);
+	background-image: url(assets/images/Khushboo.png);
+}
+.team-img-5 { 
+	background-image: url(assets/images/Koushik1.png);
 }
 .team-info {
 	position: absolute;
