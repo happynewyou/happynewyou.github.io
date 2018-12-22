@@ -41,7 +41,15 @@
     <![endif]-->
   </head>
   <body>
-
+     <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" style="text-decoration: none; font-size: 60px;" onclick="closeNav()">&times;</a>
+    <a href="index.html" style="margin-top: 60px">HOME</a>
+    <a href="Gallery.html">GALLERY</a>
+    <a href="Events.html">EVENTS</a>
+    <a href="MeetTheCoordinators.html">HOSTING CITIES</a>
+    <a href="hostinyourcity.html">HOST IN YOUR CITY</a>
+    <a href="contactus.html">CONTACT US</a>
+  </div>
 
   <!-- Start Team action -->
   <section id="team">
@@ -49,29 +57,17 @@
       <div class="row">
         <div class="col-md-12">
           <div class="team-area">
+            <h2><span style="cursor:pointer; color: #000; float: right" onclick="openNav()">&#9776;</span></h2>
             <div class="title-area">
+
               <h2 class="tittle">Meet the team</h2>
+              
               <span class="tittle-line"></span>
               <p></p>
             </div>
             <!--Start team content -->
             <div class="team-content">
               <ul class="team-grid">
-                <li>
-                  <div class="team-item team-img-1 wow fadeInUp">
-                    <div class="team-info">
-                      <p>Coordinating with Mysuru and other centers - Spreading Love!!! </p>
-                      <a href="#"><span class="fa fa-facebook"></span></a>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
-                      <a href="#"><span class="fa fa-pinterest"></span></a>
-                      <a href="#"><span class="fa fa-rss"></span></a>
-                    </div>
-                  </div>
-                  <div class="team-address">
-                    <p>Sourabh Sindhe</p>
-                    <span>Mysuru</span>
-                  </div>
-                </li>
                 <li>
                   <div class="team-item team-img-2 wow fadeInUp">
                     <div class="team-info">
@@ -83,7 +79,7 @@
                     </div>
                   </div>
                   <div class="team-address">
-                    <p>Apala </p>
+                    <p>Ayushi Pandey </p>
                     <span>Mumbai</span>                  
                   </div>
                 </li>
@@ -121,6 +117,21 @@
             </div>
              <div class="team-content">
               <ul class="team-grid">
+                <li>
+                  <div class="team-item team-img-1 wow fadeInUp">
+                    <div class="team-info">
+                      <p>Coordinating with Mysuru and other centers - Spreading Love!!! </p>
+                      <a href="#"><span class="fa fa-facebook"></span></a>
+                      <a href="#"><span class="fa fa-twitter"></span></a>
+                      <a href="#"><span class="fa fa-pinterest"></span></a>
+                      <a href="#"><span class="fa fa-rss"></span></a>
+                    </div>
+                  </div>
+                  <div class="team-address">
+                    <p>Sourabh Sindhe</p>
+                    <span>Mysuru</span>
+                  </div>
+                </li>
                   <li>
                   <div class="team-item team-img-5 wow fadeInUp">
                     <div class="team-info">
@@ -163,6 +174,15 @@
 
   <!-- Custom js -->
   <script type="text/javascript" src="Rex/assets/js/custom.js"></script>
+  <script type="text/javascript">
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
     
   </body>
 </html>

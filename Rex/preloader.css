@@ -1505,3 +1505,47 @@
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
 }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    opacity: 0.9;
+}
+
+.sidenav a {
+    padding: 20px 30px ;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    margin: 5px;
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+    background-color: #262626;
+    text-decoration: none 
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
