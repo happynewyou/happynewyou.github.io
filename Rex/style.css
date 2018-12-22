@@ -404,7 +404,7 @@ img{
 
 #about{
 	background-color: #fff;
-	padding: 70px 0;
+	padding: 50px 0;
 	float: left;
 	display: inline;
 	width: 100%;	
@@ -525,7 +525,7 @@ img{
 .about-right {
 	display: inline;
 	float: left;
-	padding-left: 25px;
+	padding-left: 85px;
 	padding-top: 20px;
 	width: 100%;
 }
