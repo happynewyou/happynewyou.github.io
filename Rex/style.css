@@ -704,8 +704,8 @@ img{
 	position: relative;
 	cursor: default;
 	box-shadow: 
-		inset 0 0 0 3px rgba(255,255,255,0.4), 0 2px 2px rgba(0,0,0,0.1);
-		
+		inset 0 0 0 8px rgba(255,255,255,0.4), 0 2px 2px rgba(0,0,0,0.1);
+	background-repeat: no-repeat;
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -737,6 +737,7 @@ img{
 	padding: 50px 0;
 	border-radius: 50%;
 	opacity: 0;
+
 	
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
