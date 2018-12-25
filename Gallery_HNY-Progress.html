@@ -14,8 +14,18 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- Custom styles for this template -->
 		<link href="GalleryPages/css/style.css" rel="stylesheet">
+		<style type="text/css">
+    #load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url('Rex/assets/images/Love2.gif') no-repeat center center rgba(255,255,255,1)
+}
+  </style>
 	</head>
 	<body id="page-top">
+		<div id="load"></div>
 		<div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" style="text-decoration: none; font-size: 60px;" onclick="closeNav()">&times;</a>
     <a href="index.html" style="margin-top: 60px">HOME</a>
@@ -328,4 +338,19 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+<script type="text/javascript">
+    
+    document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('contents').style.visibility="hidden";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('interactive');
+         document.getElementById('load').style.visibility="hidden";
+         document.getElementById('contents').style.visibility="visible";
+      },1000);
+  }
+}
+  </script>
 </html>
