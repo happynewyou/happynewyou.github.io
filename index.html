@@ -41,6 +41,8 @@
     <![endif]-->
   </head>
   <body>
+
+    <div id="load"><p style="text-align: center; color: black; margin-top: 30%">Loving...!!!</p></div>
     <section style="margin: 0px; background-image: url('Rex/assets/images/header-bg2.jpg'); background-size: 100%; width: 100%; background-repeat: no-repeat;z-index: 0; position: absolute; height: 700px; overflow-x: hidden; overflow-y: hidden;">
       <div class="snowflakes"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
     </section>
@@ -110,10 +112,9 @@
                     <span class="tittle-line"></span>
                     <p>Christmas is all about giving. We, at <strong>Heartfulness Institute</strong> have so much to offer. Let us not limit ourselves just to gifts. A simple act of kindness goes a long way. <br><br>Introducing Heartfulness to our brothers and sisters or at the least making them aware of our presence can be our own special way of celebrating Christmas and welcoming 2019!!! <br><br>The Happy New You event is happening across the globe in 20 Indian and 5 overseas cities on the 29th and 30th December, 2018. <br><br>
 
-                     Get in touch with us at <strong>yearofheart@gmail.com </strong><br>          To know more about Heartfulness Institute, visit <strong>Heartfulness.org</strong><br><br>
-
-You can also reach us at <strong>ayushi1814@gmail.com</strong> | <strong>sourabhsindhe@gmail.com</strong>
-                    </P>
+                     Get in touch with us at <strong>yearofheart@gmail.com </strong><br>
+                     To know more about Heartfulness Institute, visit <strong>Heartfulness.org</strong><br><br>You can also reach us at <strong>ayushi1814@gmail.com</strong> | <strong>sourabhsindhe@gmail.com</strong>
+                    </p>
                                  
                   </div>
                 </div>
@@ -125,6 +126,16 @@ You can also reach us at <strong>ayushi1814@gmail.com</strong> | <strong>sourabh
     </div>
   </section> 
   <!-- End about section -->
+<div class="about-right wow fadeInRight" style="margin-top: -50px" >
+  <div class="title-area">
+    <h2 class="tittle" style="margin-left: 20px">Happy New You - Year of Heart!!!</h2>
+    <span class="tittle-line" style="margin-left: 20px"></span>                        
+  </div>
+</div>
+
+<iframe class="video-height" style="margin-top: 0px" width="100%" height="100%" src="https://www.youtube.com/embed/4MjSjRg1qMU?controls=0&autoplay=1" frameborder="0" allow="accelerometer;autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
 
   <!-- Start call to action -->
  <!-- <section id="call-to-action">
@@ -221,7 +232,7 @@ You can also reach us at <strong>ayushi1814@gmail.com</strong> | <strong>sourabh
   <!-- Start Team action -->
 
   <!-- Start counter section -->
-  <section id="counter" style="overflow:hidden;">
+  <section id="counter" style="overflow:hidden;margin-top: -10px">
     <img src="Rex/assets/images/background3.jpg" alt="img">
     <div class="counter-overlay">
       <div class="container">
@@ -305,6 +316,21 @@ You can also reach us at <strong>ayushi1814@gmail.com</strong> | <strong>sourabh
 
   <!-- Custom js -->
   <script type="text/javascript" src="Rex/assets/js/custom.js"></script>
+  <script type="text/javascript">
+    
+    document.onreadystatechange = function () {
+  var state = document.readyState
+  if (state == 'interactive') {
+       document.getElementById('contents').style.visibility="hidden";
+  } else if (state == 'complete') {
+      setTimeout(function(){
+         document.getElementById('interactive');
+         document.getElementById('load').style.visibility="hidden";
+         document.getElementById('contents').style.visibility="visible";
+      },1000);
+  }
+}
+  </script>
     
   </body>
 </html>
