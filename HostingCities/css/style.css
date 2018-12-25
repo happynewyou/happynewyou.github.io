@@ -1242,4 +1242,10 @@ input[type="text"] {
   opacity: 0;
 }
 
+@media (min-width:768px) {
+  .min-padding-req {
+    padding-top: 80px; 
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

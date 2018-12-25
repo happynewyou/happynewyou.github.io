@@ -67,10 +67,11 @@ Author URI : http://www.markups.io/
   background-color: rgba(0, 217, 153, 0.8);
 }
 .team-info {
-  background: rgba(0, 217, 153, 0.8);
+  background: rgba(0,0,0,0.3);
+
 }  
 .team-grid li:hover .team-address p {
-  color: #00d999;
+  color: #232323;
 }
 .single-service {
   border-bottom: 5px solid #00d999;
@@ -85,7 +86,7 @@ Author URI : http://www.markups.io/
   color: #00d999;
 }
 .single-counter > span {
-  color: #00d999;
+  color: #fff;
 }
 .single-price .price-header {
   background-color: #00d999;
