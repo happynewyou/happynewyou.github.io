@@ -411,7 +411,6 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 }
 
 #fh5co-intro-section {
-  margin-bottom: 4em;
   padding-bottom: 3em;
 }
 
@@ -439,7 +438,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   display: block;
   text-decoration: none;
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.7);
 }
 #filters li span:hover, #filters li span:focus, #filters li span.active {
   color: #000 !important;
